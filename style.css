@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100;
+    vertical-align: baseline;
+}
+
+body{
+text-align: center;
+background: url(https://img.freepik.com/foto-gratis/marron-beige-crema-claro-lujo-abstracto-como-fondo-modelo-textura-seda-algodon_1258-71591.jpg?w=2000) no-repeat center;
+background-size: cover;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.abecedario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    width: 100%;
+    z-index: 100;
+}
+
+.letras{
+    display: flex;
+    margin-right: 10px;
+}
+
+.letras a{
+    text-align: center;
+    padding: 23px 20px;
+    color: rgb(18, 18, 19);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header{
+    text-align: center;
+    align-items: center;
+}
+
+.header{
+    height: 110vh !important;
+}
+
+.title{
+    text-align: center;
+    font-size: 55px;
+    align-items: center;
+}
+
+.contentsau{
+    text-align: center;
+}
+
+.repollo{
+    font-size: 45px;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(181, 48, 64);
+}
+
+h2{
+    
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: rgb(181, 48, 64);
+    margin-top: 1%;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 28px;
+    margin-top: 2%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(16, 16, 17);
+    margin-top: 1%;
+}
+
